@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+      "jsx": "react-jsx",
+      "allowJs": true,
+      "module": "system",
+      "noImplicitAny": false,
+      "removeComments": true,
+      "preserveConstEnums": true,
+      "outFile": "../../built/local/tsc.js",
+      "sourceMap": true,
+      "lib": ["es6", "DOM"],
+      "moduleResolution": "node",
+      "types": ["node", "jest", "@testing-library/jest-dom", "cypress", "@testing-library/cypress"],
+    },
+}
